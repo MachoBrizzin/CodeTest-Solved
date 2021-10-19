@@ -1,10 +1,10 @@
-# CodeTest
+# CodeTest Solved
 <h3>Code Test for Edge-Sweets</h3>
 
-<span>Given a list of points that make up a shape (all points inside the list are part of the shape), determine how many shapes you can fit inside a given size rectangle with a given amount of space inbetween each shape.</span>
+<span>This was solved by creating a 2D grid and interating so long as there was enough room on either axis to fit a shape.</span>
 
-<span>Example: The image below shows a rectangle (green) 50x50. The white shape next to it is a 5x5 rectangle You will be given the list of points for the shape, and the size for the green rectangle.</span><br />
-<img src="https://raw.githubusercontent.com/Edge-Sweets/CodeTest/master/images/Rectangles.PNG" width=250 ></img>
+<span>The first shape is spawned at 0,0 + the spacing/padding. Then the program evaluates how many spaces/units in the grid on either axis the shape would need if it were to be created. We then subtract the position index of the previous shape from the total dimension of the grid on that axis. If we have sufficient space for a new shape and its spacings, we add it, otherwise, we don't. The image below compares Edge-Sweets' populated grid with my own (as seen in the Unity engine).</span><br />
+<img src="https://raw.githubusercontent.com/MachoBrizzin/CodeTest-Solved/main/images/5x5.PNG" width=250 ></img>
 
 
 <span>The first shape should go in the bottom-left corner, as so: </span><br />
