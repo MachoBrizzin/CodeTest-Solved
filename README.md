@@ -4,7 +4,8 @@
 <span>This was solved by creating a 2D grid and interating so long as there was enough room on either axis to fit a shape.</span>
 
 <span>The first shape is spawned at 0,0 + the spacing/padding. Then the program evaluates how many spaces/units in the grid on either axis the shape would need if it were to be created. We then subtract the position index of the previous shape from the total dimension of the grid on that axis. If we have sufficient space for a new shape and its spacings, we add it, otherwise, we don't. The image below compares Edge-Sweets' populated grid with my own (as seen in the Unity engine).</span><br />
-<img src="https://raw.githubusercontent.com/MachoBrizzin/CodeTest-Solved/main/images/5x5.PNG" width=250 ></img>
+<img src="https://raw.githubusercontent.com/Edge-Sweets/CodeTest/master/images/Rectangles_Filled.PNG" width=250 ></img>
+<img src="https://github.com/MachoBrizzin/CodeTest-Solved/blob/e00f271c0a72229018996daa1b69e2b157b059d6/images/5x5.png" width=250 ></img>
 
 
 <span>The first shape should go in the bottom-left corner, as so: </span><br />
