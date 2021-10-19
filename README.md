@@ -13,7 +13,7 @@
 <img src="https://github.com/MachoBrizzin/CodeTest-Solved/blob/2d8120718272a6f38f7ee5c5ce69b21284266ab3/images/tri.png" width=250 ></img>
 <br /><span>Notice the spacing on the triangle grid. The rightmost column appears offset due to the lack of space to fit additional triangle shapes.</span>
 
-This test took around five or six hours to complete, and an additional two hours for the Unity visualization. It definitely had me scratching my head at times, but all-in-all it was a great exercise and I'm glad to have been given the opportunity to give it a shot.
+This test definitely had me scratching my head at times, but all-in-all it was a great exercise and I'm glad to have been given the opportunity to give it a shot.
 
 It was a great feeling to finish this, and even better to have it visualized.
 
